@@ -1,0 +1,91 @@
+############################################################################################################
+-------------------------------------_Playground/pghosh: Migration Started ---------------------------------------
+  
+Start Time:  2019-04-16 14:46:51.681
+Check if Source Project: _Playground/pghosh Exists
+----------- Source Project: _Playground/pghosh Exists on source server
+----------- Total Sub projects On source project: 2
+----------- Total Members On source project: 6
+----------- Total Items On source project: 8
+Migration Status: Total Sub projects On source project: 2
+Migration Status: Total Members On source project: 6
+Migration Status: Total Items On source project: 8
+Check if Destination Project: DataMigration_Test Exists
+----------- Destination Project DataMigration_Test Exists on Destination server
+Check if Destination Project: /DataMigration_Test/LegacyData_16April2019_01/project.pj Exists
+Destination Project: /DataMigration_Test/LegacyData_16April2019_01/project.pj does not exist on destination server
+Creating /DataMigration_Test/LegacyData_16April2019_01/project.pj on destination
+----------- Created /DataMigration_Test/LegacyData_16April2019_01/project.pj on destination
+Creating //DataMigration_Test/LegacyData_16April2019_01/_Playground/project.pj on destination
+----------- Created //DataMigration_Test/LegacyData_16April2019_01/_Playground/project.pj on destination
+Creating //DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/project.pj on destination
+----------- Created //DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/project.pj on destination
+Creating /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/project.pj on destination
+----------- Created /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/project.pj on destination
+Creating /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj on destination
+----------- Created /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj on destination
+Going to retrieve member information of /_Playground/pghosh/test/test1/3333.txt.txt
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.1"  -P "/_Playground/pghosh/test/test1/project.pj"  "3333.txt.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/test1_0.49510134430687935/1.1_3333.txt.txt" 
+Downloading revision files of 3333.txt.txt under folder test1_0.49510134430687935
+Downloaded revision file(s) of 3333.txt.txt under folder test1_0.49510134430687935
+Adding member  3333.txt.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/test1/project.pj
+----------- added member  3333.txt.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/test1/project.pj
+Revisions of 3333.txt.txt : [1.1]
+Going to retrieve member information of /_Playground/pghosh/test/test1/New Text Document.txt
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.1"  -P "/_Playground/pghosh/test/test1/project.pj"  "New Text Document.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/test1_0.49510134430687935/1.1_New Text Document.txt" 
+Downloading revision files of New Text Document.txt under folder test1_0.49510134430687935
+Downloaded revision file(s) of New Text Document.txt under folder test1_0.49510134430687935
+Adding member  New Text Document.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/test1/project.pj
+----------- added member  New Text Document.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/test1/project.pj
+Revisions of New Text Document.txt : [1.1]
+Going to retrieve member information of /_Playground/pghosh/test/Dokument2.txt
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.1"  -P "/_Playground/pghosh/test/project.pj"  "Dokument2.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/test_0.23114259168791373/1.1_Dokument2.txt" 
+Downloading revision files of Dokument2.txt under folder test_0.23114259168791373
+Downloaded revision file(s) of Dokument2.txt under folder test_0.23114259168791373
+Adding member  Dokument2.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj
+----------- added member  Dokument2.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj
+Revisions of Dokument2.txt : [1.1]
+Going to retrieve member information of /_Playground/pghosh/test/Dokument3.txt
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.2"  -P "/_Playground/pghosh/test/project.pj"  "Dokument3.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/test_0.23114259168791373/1.2_Dokument3.txt" 
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.1"  -P "/_Playground/pghosh/test/project.pj"  "Dokument3.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/test_0.23114259168791373/1.1_Dokument3.txt" 
+Downloading revision files of Dokument3.txt under folder test_0.23114259168791373
+Downloaded revision file(s) of Dokument3.txt under folder test_0.23114259168791373
+Adding member  Dokument3.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj
+----------- added member  Dokument3.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj
+Revisions of Dokument3.txt : [1.1, 1.2]
+checkedIn member  Dokument3.txt with new revision: 1.2
+Going to retrieve member information of /_Playground/pghosh/test/Trainingfile.docx
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.2"  -P "/_Playground/pghosh/test/project.pj"  "Trainingfile.docx"  >"D:\SIMigration/IDownload_0.19354057583751105/test_0.23114259168791373/1.2_Trainingfile.docx" 
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.1"  -P "/_Playground/pghosh/test/project.pj"  "Trainingfile.docx"  >"D:\SIMigration/IDownload_0.19354057583751105/test_0.23114259168791373/1.1_Trainingfile.docx" 
+Downloading revision files of Trainingfile.docx under folder test_0.23114259168791373
+Downloaded revision file(s) of Trainingfile.docx under folder test_0.23114259168791373
+Adding member  Trainingfile.docx into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj
+----------- added member  Trainingfile.docx into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/test/project.pj
+Revisions of Trainingfile.docx : [1.1, 1.2]
+checkedIn member  Trainingfile.docx with new revision: 1.2
+Going to retrieve member information of /_Playground/pghosh/Dokument1.txt
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.2"  -P "/_Playground/pghosh/project.pj"  "Dokument1.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/pghosh_0.13741755067708072/1.2_Dokument1.txt" 
+Created cmd si viewrevision --hostname="magnalm-dev2.ptcmscloud.com"  --port=7001 --user="m000abvf"  --password="xxxxx"  --revision="1.1"  -P "/_Playground/pghosh/project.pj"  "Dokument1.txt"  >"D:\SIMigration/IDownload_0.19354057583751105/pghosh_0.13741755067708072/1.1_Dokument1.txt" 
+Downloading revision files of Dokument1.txt under folder pghosh_0.13741755067708072
+Downloaded revision file(s) of Dokument1.txt under folder pghosh_0.13741755067708072
+Adding member  Dokument1.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/project.pj
+----------- added member  Dokument1.txt into /DataMigration_Test/LegacyData_16April2019_01/_Playground/pghosh/project.pj
+Revisions of Dokument1.txt : [1.1, 1.2]
+checkedIn member  Dokument1.txt with new revision: 1.2
+ 
+Source Project Count:
+Sub Project Count: 2
+Member Count: 6
+Total Count: 8
+Destination Project Count:
+Sub Project Count: 2
+Member Count: 6
+Total Count: 8
+released source connection 
+released destination connection 
+ 
+Total Run Time: 1 mins
+ 
+----------------------------------_Playground/pghosh: Migration Completed---------------------------------
+###########################################################################################################
+  
